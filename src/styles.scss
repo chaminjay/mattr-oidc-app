@@ -1,0 +1,24 @@
+// Override default variables before the import
+$primary: #FFD400;
+$body-bg: #FBFBFB;
+$dark: #2F242C;
+$light: #BFB6BB;
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$display-font-sizes: (
+  1: 4rem,
+  2: 3.5rem,
+  3: 3rem,
+  4: 2.5rem,
+  5: 2rem,
+  6: 1.5rem
+);
+
+
+// import custom fonts from google fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
+
